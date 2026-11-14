@@ -7,5 +7,11 @@ const websites = [
     { name: "Cameron's World", url: "https://www.cameronsworld.net" },
     { name: "The Vintage Web", url: "https://thevintageweb.com" },
     { name: "Weird or Confusing", url: "https://weirdorconfusing.com" },
-    { name: "Windows 98", url: "https://98.js.org" }
+    { name: "Heading Grid", url: "https://optical.toys/healing-grid/" },
+    { name: "Waterfall Effect", url: "https://optical.toys/waterfall-effect/" },
+    { name: "Windows 98", url: "https://98.js.org" },
+    { name: "Geogeussr", url: "https://www.geoguessr.com" },
+    { name: "Wikitok", url: "https://www.wikitok.io" },
+    { name: "🤣Funny Animals 2026🤣Funny Dogs video🐶 part-26-03", url: "https://odysee.com/%24/embed/%40FunnyChannel%3Ad2%2FFunny-052365%3Ae?r=9xATNFc2PNgcFZraUMYZEEK1XnfwGTcD" },
+    { name: "Bouncy Balls", url: "https://bouncyballs.org" }
 ];
