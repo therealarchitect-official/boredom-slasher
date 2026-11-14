@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boredom Slasher - Click the Red Button!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json"> <!-- Optional, for PWA -->
+</head>
+<body>
+
+    <main class="container">
+        <h1>Boredom Slasher</h1>
+        <p>Click the red button below to dive into something wonderfully random!</p>
+
+        <!-- The Iconic Button -->
+        <button id="red-button">CLICK ME</button>
+
+        <!-- Container for iframe embedding or link launching -->
+        <div id="display-container">
+            <p id="placeholder-text">Your boredom ends here...</p>
+        </div>
+    </main>
+
+    <!-- Load websites list first, then your main logic -->
+    <script src="websites.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Register Service Worker for PWA / offline capabilities
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log("Service Worker Registered!"));
+        }
+    </script>
+</body>
+</html>
